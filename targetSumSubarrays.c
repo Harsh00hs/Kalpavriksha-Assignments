@@ -46,5 +46,6 @@ int main() {
     }
     
     printf("Subarrays Count: %d", count);
+    free(arr);
     return 0;
 }
