@@ -146,10 +146,10 @@ int main(){
     printf("Enter number of method to be performed: ");
     do {
         scanf("%d", &n);
-        if (n <= 1 || n >= 100) {
+        if (n < 1 || n > 100) {
             printf("Invalid! Enter between 1 and 100: ");
         }
-    } while (n <= 1 || n >= 100);
+    } while (n < 1 || n > 100);
     
     int i=0;
     while(i<n){
